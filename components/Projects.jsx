@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import ProjectItem from './ProjectItem';
 import React from "react";
-import Amazone from "../public/icons/Amazon Image 2022-.jpeg";
-import ANetflix from "../public/icons/ANetflix Image 2022-.jpeg";
-import Apple from "../public/icons/Apple Image 2022-.jpeg";
-import AMessenger from "../public/icons/AMessenger Image 2022-.jpeg";
+import Amazone from "/public/icons/Amazon Image 2022-.jpeg";
+import ANetflix from "/public/icons/ANetflix Image 2022-.jpeg";
+import Apple from "/public/icons/Apple Image 2022-.jpeg";
+import AMessenger from "/public/icons/AMessenger Image 2022-.jpeg";
 
 const Projects = () => {
   return (

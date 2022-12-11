@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import profil from "/public/icons/profil.jpeg"
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPersonLinesFill } from "react-icons/bs";
@@ -23,15 +24,15 @@ const Contact = () => {
             <div className="lg:p-4 h-full rounded-xl">
               <div>
                 <Image
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="/../public/icons/unsplash.jpg"
+                  className="rounded-full shadow shadow-blue-600 hover:scale-105 ease-in duration-300"
+                  src={profil}
                   alt=""
                   width="285"
                   height="85"
                 />
               </div>
               <div className="text-white">
-                <h2 className="py-3 capitalize">Name Here</h2>
+                <h2 className="py-3 capitalize">anteneh tassew</h2>
                 <p className="py-2 capitalize">full-stack developer</p>
                 <p className="p-4">
                   I am availebele for a full time position. Contact me and let's

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import profil from '/public/icons/profil.jpeg'
 
 const About = () => {
   return (
@@ -38,7 +39,7 @@ const About = () => {
         </div>
         <div className="w-full h-auto shadow-xl rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-500">
           <Image className="shadow shadow-red-600 rounded-full"
-            src="/../public/icons/profil.jpeg"
+            src={profil}
             alt="/"
             width="200"
             height="50"

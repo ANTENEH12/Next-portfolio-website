@@ -1,4 +1,5 @@
 import Image from "next/image";
+import eagleaya from '/public/icons/eagle-aya.jpeg'
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
@@ -34,7 +35,7 @@ const Navbar = () => {
         <Link href="/">
           <Image
             className="shadow shadow-red-600 rounded-full"
-            src="/../public/icons/eagle-aya.jpeg"
+            src={eagleaya}
             alt=""
             width="80"
             height="10"
@@ -85,8 +86,8 @@ const Navbar = () => {
               <Link href="/">
                 <Image
                   className="shadow shadow-blue-600 rounded-full"
-                  src="/../public/icons/eagle-aya.jpeg"
-                  alt="/"
+                  src={eagleaya}
+                  alt=""
                   width="80"
                   height="20"
                 />

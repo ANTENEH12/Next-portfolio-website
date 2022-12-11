@@ -7,9 +7,8 @@ import { BsPersonLinesFill } from "react-icons/bs";
 const Main = () => {
   return (
     <motion.div
-    // initial={{ x: 500, opacity: 0, scale: 0.5 }}
-    // animate={{ x: 0, opacity: 1, scale: 1 }}
-    // transition={{ duration: 1.5 }}
+  
+
     
     id="home" className="w-full h-screen text-center bg-black">
       <div className="max-w-[1240px] h-full mx-auto p-2 flex justify-center items-center">
